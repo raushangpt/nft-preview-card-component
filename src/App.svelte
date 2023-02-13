@@ -1,0 +1,49 @@
+<div class="grid h-screen w-screen place-items-center bg-blue-400">
+  <div
+    class="font-outfit max-w-xs space-y-4 rounded-lg bg-blue-300 p-4 shadow-2xl sm:max-w-sm sm:p-6">
+    <div class="relative cursor-pointer overflow-hidden rounded-lg">
+      <img src="./images/image-equilibrium.jpg" alt="" />
+
+      <div
+        class="bg-cyan/50 absolute inset-0 grid place-items-center opacity-0 hover:opacity-100">
+        <img src="./images/icon-view.svg" alt="" />
+      </div>
+    </div>
+
+    <a class="block" href="/#">
+      <h1 class="hover:text-cyan text-2xl font-semibold text-white">
+        Equilibrium #3429
+      </h1>
+    </a>
+
+    <p class="font-light text-blue-100 sm:text-lg">
+      Our Equilibrium collection promotes balance and calm.
+    </p>
+
+    <div class="flex justify-between">
+      <span class="text-cyan flex items-center gap-x-4">
+        <img class="animate-pulse" src="./images/icon-ethereum.svg" alt="" />
+        0.041 ETH
+      </span>
+
+      <span class="flex items-center gap-x-4 text-blue-100">
+        <img class="animate-spin" src="./images/icon-clock.svg" alt="" />
+        3 days left
+      </span>
+    </div>
+
+    <hr class="text-blue-200" />
+
+    <div class="flex items-center gap-x-4">
+      <img
+        class="h-10 w-10 rounded-full border border-white"
+        src="./images/image-avatar.png"
+        alt="" />
+
+      <div class="">
+        <span class="font-light text-blue-100">Creation of</span>
+        <a class="hover:text-cyan text-white" href="/">Jules Wyvern</a>
+      </div>
+    </div>
+  </div>
+</div>
